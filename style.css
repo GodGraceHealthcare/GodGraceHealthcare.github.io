@@ -153,7 +153,6 @@
 
 .logs>img {
     width: 20rem;
-
 }
 
 /* testimonials */
@@ -221,7 +220,7 @@
 .slide .details {
     display: flex;
     flex-direction: column;
-    align-items: centerSS;
+    align-items: center;
 }
 
 .details .name {
@@ -271,7 +270,7 @@
 }
 
 /* Mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .container {
         padding: 0 0.2rem;
     }
@@ -399,4 +398,87 @@
         font-size: 0.75rem;
     }
 
+}
+
+@media (max-width:380px) {
+    .tagline {
+        font-size: 2rem;
+    }
+
+    .cross-offers {
+        margin-top: 1rem;
+
+    }
+
+    .margin-left {
+        margin-top: 0.125rem;
+    }
+
+    .blue {
+        font-size: 1.5rem;
+    }
+
+    .catch-text {
+        font-size: 1.125rem;
+    }
+
+    .para {
+        font-size: 0.8rem;
+    }
+
+    .diseases>h3 {
+        font-size: 1.5rem;
+    }
+
+    .logs {
+        width: 18rem;
+    }
+
+    .logs>img {
+        width: 18rem;
+    }
+
+    /* testimonial */
+    .testimonials {
+        max-width: 56.25rem;
+        padding: 1.3rem 0;
+        row-gap: 0.8rem;
+    }
+
+    .test-container {
+        height: 40vh;
+    }
+
+    .slide p {
+        padding: 0 2rem;
+        font-size: 0.875rem;
+    }
+
+    .testimonials .images {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .slide .fa-quote-right {
+        font-size: 1rem;
+    }
+
+    .slide p {
+        padding: 0 2rem;
+        font-size: 0.55rem;
+    }
+
+    .slide .fa-quote-right {
+        font-size: 1.5rem;
+    }
+
+    .slide .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details .name {
+        font-size: 0.6rem;
+    }
 }
