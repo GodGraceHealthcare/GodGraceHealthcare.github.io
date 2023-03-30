@@ -1,0 +1,402 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+.main {
+    height: 100vh;
+    background-color: #F2FBFC;
+}
+
+.blue {
+    color: #04A7C3;
+    padding: 0.25rem;
+    font-size: 2rem;
+}
+
+
+.navbar {
+    display: flex;
+    padding: 0.5rem 1rem;
+}
+
+.logo-img {
+    width: 4rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #04A7C3;
+}
+
+/* Hero section */
+
+.Hero {
+    padding: 0 4rem;
+    margin-top: 2rem;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+
+.margin-left {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.image>img {
+    width: 400px;
+    height: 600px;
+}
+
+.Offering {
+    /* border: 2px solid green; */
+    padding: 0 1rem;
+}
+
+
+.cross-offers {
+    margin-top: 3rem;
+    padding: 0.5rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.catch-text {
+    color: #003846;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.para {
+    padding: 0.5rem 0;
+    font-weight: 300;
+}
+
+.Flex {
+    display: flex;
+}
+
+.second {
+    margin-top: 3rem;
+}
+
+
+
+.tagline {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #04A7C3;
+
+}
+
+/* section */
+.section {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 0 5rem;
+}
+
+.diseases>h3 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.diseases>p {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.catalog {
+    display: flex;
+
+}
+
+.logs {
+    overflow: hidden;
+    width: 20rem;
+    border: 2px solid black;
+    margin-left: 1rem;
+    border-radius: 0.25rem;
+}
+
+.imagecat {
+    overflow: hidden;
+}
+
+.logs>div {
+    padding: 0.5rem;
+}
+
+
+.logs>img {
+    width: 20rem;
+
+}
+
+/* testimonials */
+
+.test-container {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials {
+    position: relative;
+    max-width: 56.25rem;
+    width: 100%;
+    border-radius: 1rem;
+    background: #F2FBFC;
+    padding: 3.125rem 0;
+    row-gap: 1.875rem;
+}
+
+
+.testimonials .images {
+    /* height: 10.625rem;
+    width: 10.625rem; */
+    height: 7rem;
+    width: 7rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .2rem solid #003846;
+}
+
+.testimonials .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testi-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.slide p {
+    text-align: center;
+    padding: 0 10rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.slide .fa-quote-right {
+    font-size: 1.875rem;
+    color: #003846;
+}
+
+.slide .details {
+    display: flex;
+    flex-direction: column;
+    align-items: centerSS;
+}
+
+.details .name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.details .job {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+}
+
+/* footer */
+.footer {
+    background: linear-gradient(93.44deg, #003846 0%, #04A7C3 100%);
+    padding: 5rem 5rem;
+    color: white;
+}
+
+.fix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fix img {
+    width: 7rem;
+}
+
+.footnote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footnote>div>h3 {
+    font-size: 2rem;
+}
+
+.copyright {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0 0.2rem;
+    }
+
+    .image>img {
+        width: 200px;
+        height: 300px;
+        display: none;
+    }
+
+    .tagline {
+        font-size: 2.5rem;
+    }
+
+    .Grid {
+        grid-template-columns: 1fr;
+    }
+
+    .Offering {
+        padding: 0rem;
+    }
+
+    .cross-offers {
+        padding: 0rem;
+        margin-top: 1.5rem;
+        padding: 0.25rem;
+        grid-template-columns: 1fr;
+    }
+
+    .margin-left {
+        margin-top: 0.25rem;
+    }
+
+    .Hero {
+        padding: 0 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .catch-text {
+        color: #003846;
+        font-weight: 400;
+    }
+
+    .para {
+        padding: 0.2rem 0;
+        font-weight: 300;
+    }
+
+    .second {
+        margin-top: 1.5rem;
+    }
+
+    /* section */
+    .section {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .catalog {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .diseases>p {
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    /* testimonials */
+
+    .testimonials {
+        position: relative;
+        max-width: 56.25rem;
+        width: 100%;
+        border-radius: 1rem;
+        background: #F2FBFC;
+        padding: 1.5rem 0;
+        row-gap: 1rem;
+    }
+
+    .test-container {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide p {
+        padding: 0 2rem;
+        font-size: 0.875rem;
+    }
+
+    .testimonials .images {
+        height: 5rem;
+        width: 5rem;
+        object-fit: cover;
+        border-radius: 50%;
+        border: .2rem solid #003846;
+    }
+
+    /* footnote */
+    .footer {
+        padding: 0.5rem;
+    }
+
+    .fix img {
+        width: 3rem;
+    }
+
+    .invert {
+        font-size: 1rem;
+    }
+
+    .footnote>div>h3 {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        margin-top: 1rem;
+        font-size: 0.75rem;
+    }
+
+}
